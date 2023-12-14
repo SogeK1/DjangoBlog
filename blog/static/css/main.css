@@ -1,0 +1,573 @@
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?7hhkq1');
+  src:  url('../fonts/icomoon/icomoon.eot?7hhkq1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?7hhkq1') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?7hhkq1') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?7hhkq1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-twitter-square:before {
+  content: "\f081";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-youtube-square:before {
+  content: "\f166";
+}
+
+
+@font-face {
+font-family: 'Segoe WP N';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe WP N'), url('SegoeWPN.woff') format('woff');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: SegoeWPN, "Myriad Pro", Arial, sans-serif;
+	background-color: #fff;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+	color: #848484;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h6 {
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 5px;
+	text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    width: 180px;
+    background-color: #58d1dc;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.clear::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+.header {
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	
+}
+.container {
+	max-width: 1064px; /* 1024 + 20 + 20*/
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.logo {
+	max-width: 240px;
+	float: left;
+}
+
+.logo a {
+	display: block;
+	transition: all .5s;
+}
+
+.logo a:hover {
+	transform: scale(1.2);		
+}
+
+.nav {
+	float: right;
+	margin-top: 6px;
+}
+
+.nav li {
+	float: left;
+
+}
+
+.nav li a {
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: normal;
+	color: #323332;
+	padding: 8px 20px;
+	margin-left: 25px;
+	transition: all .5s;
+}
+
+.nav a:hover {
+	color: #fff;
+	background-color: #373737;
+}
+
+.review {
+	float: left;
+}
+
+.banner_img {
+	float: right;
+	max-width: 790px;
+	z-index: 3;
+	margin-right: -110px;
+	padding-top: 110px;
+	padding-bottom: 60px;
+}
+
+.banner h1, .banner h2 {
+	color: #5d5d5d;
+}
+.banner h1 {
+	font-size: 61px;
+	padding-top: 185px;
+}
+
+.banner h2 {
+	font-size: 47px;
+	line-height: 1.2em;
+}
+
+.banner button {
+	background-color: #373737;
+	border: none;
+	margin-top: 30px;
+	transition: all .5s;
+}
+.banner button:hover {
+	background-color: #86e7f0;
+}
+
+.banner button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 23px;
+	display: inline-block;
+	padding: 7px;
+	transition: all .5s;
+}
+
+.banner button a:hover {
+	color: #373737;
+	
+}
+
+.banner button img {
+	margin-right: 5px;
+}
+
+
+
+/*main section*/
+.content {
+	width: 70%;
+	float: left;
+	padding-bottom: 55px;
+	padding-right: 25px;
+}
+
+.slider {
+	position: relative;
+}
+
+.slider h4 {
+	font-size: 30px;
+	color: #696161;
+	line-height: 37px;
+}
+
+
+.slider img {
+	max-width: 307px;
+	float: left;
+	margin-right: 30px;
+}
+
+.slider_title {
+	
+	overflow: hidden;
+}
+
+.slider .arrows {
+	position: absolute;
+	bottom: 0;
+	right: -3%;
+	color: #fff;
+	
+}
+.slider .arrows a {
+	color: #fff;
+	transition: all .5s;
+}
+
+.slider .arrows a:hover {
+	background-color: #86e7f0;
+	color: #393a39;
+}
+
+.icon-keyboard_arrow_right, .icon-keyboard_arrow_left {
+	font-size: 1.5em;
+	background-color: #989998;
+	text-align: center;
+}
+
+.icon-keyboard_arrow_right:hover, .icon-keyboard_arrow_left:hover {
+	background-color: #7c7d7c;
+}
+
+.news {
+	
+}
+
+.news h5 {
+	font-size: 26px;
+	line-height: 28px;
+	color: #696161;
+	margin-top: 45px;
+}
+
+.news span {
+	font-size: 14px;
+	line-height: 20px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #848484;
+}
+
+.news .col {
+	width: 33.3%;
+	float: left;
+	padding-left: 15px;
+}
+
+.news .col:first-child {
+	padding-left: 0;
+}
+
+.sidebar {
+	width: 30%;
+	max-width: 320px;
+	float: right;
+}
+
+.promo a {
+	display: inline-block;
+	transition: all 1s;
+}
+
+.promo a:hover {
+	transform: scale(1.2);
+
+}
+
+.join_us {
+	background-color: #86e7f0;
+	color: #fff;
+	margin-top: 25px;
+	position: relative;
+	padding-top: 120px;
+	padding-bottom: 12px;
+}
+
+.join_us_week {
+	background-color: #ef809f;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -66px;
+	width: 122px;
+	height: 122px;
+	text-align: center;
+}
+.join_us_week .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 0.7;
+}
+.join_us_week .number {
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.join_us h3 {
+	font-size: 46px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.join_us h6 {
+	text-transform: none;
+}
+
+.join_us a {
+	transition: all .5s;
+}
+
+.join_us a:hover {
+	background-color: #bb4465;
+}
+
+.sign_up {
+	background-color: #393a39;
+	margin-top: 25px;
+	color: #fff;
+}
+
+.sign_up_block {
+	padding: 20px 37px 19px 30px;
+	border-bottom: solid 7px #bb4465;
+}
+
+.sign_up h6 {
+	font-size: 27px;
+}
+
+.sign_up p {
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.sign_up input {
+	width: 100%;
+	border: none;
+	font-size: 14px;
+	color: #787878;
+	padding: 6px 9px;
+	
+}
+.sign_up input {
+	margin-bottom: 12px;
+}
+
+.sign_up_form .btn {
+	background-color: #bb4465;
+	margin: 0 auto;
+	transition: all .5s;
+}
+
+.sign_up_form .btn:hover {
+	background-color: #58d1dc;
+}
+
+
+
+.footer {
+	background-color: #393a39;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	width: 100%;
+	padding-top: 27px;
+	padding-bottom: 31px;
+}
+
+.footer .icons {
+	display: inline-block;
+	float: right;
+	font-size: 1.8em;
+	line-height: 0;
+
+}
+
+.icons li {
+	display: inline-block;
+	padding-left: 10px;
+}
+.icons a {
+	color: #fff;
+	transition: all .5s;
+}
+
+.icons a:hover {
+	color: #86e7f0;
+}
+
+
+
+
+@media (max-width: 1324px) { 
+  .banner_img {
+    max-width: 65%;
+    margin-right: 0;
+  }
+ }
+
+@media (max-width: 1065px) { 
+  .banner_img {
+    max-width: 45%;
+    margin-right: 0;
+  }
+
+  .review button {
+  	margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+	.logo {
+		max-width: 170px;
+	}
+	
+	.nav {
+		background-color: #dadada;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+    	width: 100%;
+	}
+
+	.nav .menu li {
+		width: 100%;
+		padding-bottom: 20px;
+		display: block;
+		margin: 0;
+
+	}
+	.nav .menu li:hover {
+		
+	}
+
+	.nav .menu li a {
+		color: #303030;
+		margin: 0;
+		padding: 0;
+	}
+
+	.banner {
+		text-align: center;
+	}
+
+	.banner h1 {
+		padding-top: 10px;
+	}
+
+	.banner_img {
+		max-width: none;
+		width: 100%;
+		padding-top: 50px;
+	}
+
+	.slider img {
+		float: none;
+	}
+
+	 .review {
+		float: none;
+	 }
+
+	.slider .arrows {
+		position: relative;
+		right: auto;
+		overflow: hidden;
+	}
+
+	.icon-keyboard_arrow_left {
+		float: left;
+	}
+
+	.icon-keyboard_arrow_right {
+		float: right;
+	}
+	
+	.content {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.sidebar {
+		width: 100%;
+		max-width: none;
+	}
+
+	.promo {
+		display: none;
+	}
+	
+	.col {
+		display: none;
+	}
+
+	.col:first-child {
+		width: 100%;
+		display: block;
+	}
+
+	.sign_up_block {
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 380px) {
+	.slider img {
+		width: 100%;
+		margin: 0;
+	}
+}
